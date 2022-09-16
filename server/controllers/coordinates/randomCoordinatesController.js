@@ -11,7 +11,7 @@ exports.generateRandomCoordinates = (req, res) => {
     const right = -33.96307;
 
     // NUMBER OF POINTS WE WANT TO CREATE
-    const numberOfPoints = 7;
+    const numberOfPoints = 15;
 
     // HELPER FUNCTION TO GENERATE RANDOM COORDINATES
     const coordinates = generateCoordinates(

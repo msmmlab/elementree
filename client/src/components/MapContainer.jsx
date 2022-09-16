@@ -1,6 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Map, { Marker } from "react-map-gl";
-import "./MapContainer.css";
 import Pin from "../images/pin.png";
 import "mapbox-gl/dist/mapbox-gl.css";
 

@@ -5,7 +5,9 @@ import DataContainer from "./components/DataContainer";
 import MapContainer from "./components/MapContainer";
 
 function App() {
+    // SOURCE OF TRUTH FOR COORDINATES
     const [points, setPoints] = useState([{}]);
+
     return (
         <Layout>
             <DataContainer setPoints={setPoints} />
