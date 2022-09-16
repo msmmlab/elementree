@@ -1,7 +1,17 @@
 const logger = require("../../utils/logger");
+const generateCoordinates = require("../../utils/generateCoordintes");
 
 exports.generateRandomCoordinates = (req, res) => {
     logger.info("GET /api/coordinates/random controller triggered.");
-    const coordinates = [{ long: 12313, lat: 5553 }];
+
+    // CONSTANT BOUNDARY BOX OR RECEIVED FROM REQUEST BODY
+    const bottom = 151.15035;
+    const left = -33.87854;
+    const upper = 151.1265;
+    const right = -33.8854;
+
+    // HELPER FUNCTION TO GENERATE RANDOM COORDINATES
+    const coordinates = generateCoordinates(bottom, left, upper, right);
+
     res.status(200).send(coordinates);
 };

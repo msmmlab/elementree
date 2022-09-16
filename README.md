@@ -31,5 +31,3 @@ Please cd into SERVER directory and run one of the following commands:
 ## TESTING API USING POSTMAN
 
 1. GET / http://localhost:3030/api/coordinates/random
-
-2. EXPECTED API RESPONSE
