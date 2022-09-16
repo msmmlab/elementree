@@ -38,6 +38,9 @@ CLIENT => http://localhost:3000
 
 ## STARTING THE SYSTEM
 
+Please cd into CLIENT directory and create a .env file.
+Add REACT_APP_MAPBOX_KEY with mapbox access token
+
 Please cd into SERVER directory and run one of the following commands:
 
 1. npm run server -> to start the SERVER (node/express) only
