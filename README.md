@@ -6,7 +6,7 @@ Create a simple React.js based front end using the above API endpoint and plot t
 
 ## ARCHITECTURE
 
-Task has been solved by using traditional CLIENT <-> SERVER approach.
+Traditional CLIENT <-> SERVER approach.
 
 ## LIBRARIES USED
 
@@ -18,5 +18,18 @@ Task has been solved by using traditional CLIENT <-> SERVER approach.
     - compression
     - pino
     - pino-pretty
+    - concurrently
 
-## IMPOROVEMENTS FOR THE NEXT ITERATION
+## STARTING THE SYSTEM
+
+Please cd into SERVER directory and run one of the following commands:
+
+1. npm run server -> to start the SERVER (node/express) only
+2. npm run client -> to start the CLIENT (reactjs) only
+3. npm run dev -> to start full stack application (client + server)
+
+## TESTING API USING POSTMAN
+
+1. GET / http://localhost:3030/api/coordinates/random
+
+2. EXPECTED API RESPONSE
