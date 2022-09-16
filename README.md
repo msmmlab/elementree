@@ -8,9 +8,13 @@ Create a simple React.js based front end using the above API endpoint and plot t
 
 Traditional CLIENT <-> SERVER approach.
 
+SERVER => http://localhost:3030
+CLIENT => http://localhost:3000
+
 ## LIBRARIES USED
 
 1. SERVER
+
     - express
     - nodemon
     - cors
@@ -19,6 +23,13 @@ Traditional CLIENT <-> SERVER approach.
     - pino
     - pino-pretty
     - concurrently
+
+2. CLIENT
+    - react.js
+    - bootstrap v5
+    - mapbox
+    - axios
+    - react-map-gl
 
 ## STARTING THE SYSTEM
 
