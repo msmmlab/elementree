@@ -6,8 +6,17 @@ Create a simple React.js based front end using the above API endpoint and plot t
 
 ## ARCHITECTURE
 
+Task has been solved by using traditional CLIENT <-> SERVER approach.
+
 ## LIBRARIES USED
 
-## IMPOROVEMENTS FOR THE NEXT ITERATION
+1. SERVER
+    - express
+    - nodemon
+    - cors
+    - helmet
+    - compression
+    - pino
+    - pino-pretty
 
-## IDEAS
+## IMPOROVEMENTS FOR THE NEXT ITERATION
